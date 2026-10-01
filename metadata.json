@@ -1,0 +1,6 @@
+{
+  "name": "King Fitness Center",
+  "description": "Modern premium gym and athletic club offering state-of-the-art strength training, conditioning turf, expert coaches, and luxury recovery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

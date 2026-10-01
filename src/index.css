@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Teko', sans-serif;
+    --font-display: 'Syne', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  html {
+    font-family: var(--font-sans);
+    color-scheme: dark;
+    background-color: #09090b;
+    scroll-behavior: smooth;
+  }
+}
+
+.font-heading {
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 0.95;
+}
+
+.font-display {
+  font-family: 'Syne', sans-serif;
+}
+
+/* Custom Gold-to-Orange gradients matching King Fitness Center Logo */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFC107 0%, #FFA000 45%, #FF6F00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.silver-gradient-text {
+  background: linear-gradient(180deg, #FFFFFF 0%, #E2E8F0 40%, #94A3B8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #FFB800 0%, #FF8A00 100%);
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 20px -3px rgba(255, 184, 0, 0.2);
+}
+
+.card-dark {
+  background-color: #121215;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.card-dark:hover {
+  border-color: rgba(255, 184, 0, 0.3);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
